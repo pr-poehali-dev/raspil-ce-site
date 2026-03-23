@@ -10,11 +10,7 @@ const values = [
   { icon: "Leaf", title: "Экология", desc: "Работаем с сертифицированными материалами E1. Безопасно для вашего дома." },
 ];
 
-const team = [
-  { name: "Сергей Евгеньевич", role: "Директор и мастер", exp: "15 лет опыта" },
-  { name: "Алексей", role: "Оператор ЧПУ", exp: "8 лет опыта" },
-  { name: "Марина", role: "Менеджер заказов", exp: "5 лет опыта" },
-];
+
 
 export default function About() {
   return (
@@ -87,7 +83,7 @@ export default function About() {
                     <Icon name="Clock" size={18} className="text-amber-400 mt-0.5 shrink-0" />
                     <div>
                       <div className="text-amber-200 font-medium text-sm">Режим работы</div>
-                      <div className="text-amber-100/60 text-sm mt-0.5">Пн–Пт: 9:00–18:00<br />Сб: 10:00–15:00</div>
+                      <div className="text-amber-100/60 text-sm mt-0.5">Пн–Пт: 9:00–18:00<br />Сб: 9:00–14:00</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -124,21 +120,7 @@ export default function About() {
             ))}
           </div>
 
-          <div className="mb-12 text-center">
-            <h2 className="font-serif text-2xl md:text-3xl font-bold text-stone-800 mb-2">Наша команда</h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
-            {team.map((member) => (
-              <div key={member.name} className="bg-white rounded-xl p-6 border border-stone-200 text-center hover:border-amber-300 hover:shadow-md transition-all">
-                <div className="w-16 h-16 rounded-full wood-gradient flex items-center justify-center mx-auto mb-3">
-                  <Icon name="User" size={28} className="text-amber-200" />
-                </div>
-                <h4 className="font-serif font-bold text-stone-800">{member.name}</h4>
-                <p className="text-amber-700 text-sm font-medium mt-0.5">{member.role}</p>
-                <p className="text-stone-400 text-xs mt-1">{member.exp}</p>
-              </div>
-            ))}
-          </div>
+
         </div>
       </section>
 

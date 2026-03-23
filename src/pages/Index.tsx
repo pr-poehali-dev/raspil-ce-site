@@ -34,7 +34,7 @@ export default function Index() {
               <span>Профессиональный распил на заказ</span>
             </div>
             <h1 className="font-serif text-4xl md:text-6xl font-bold text-amber-50 leading-tight mb-6">
-              Точный распил
+              Распил
               <span className="block text-amber-400">ДСП и ЛДСП</span>
               по вашим размерам
             </h1>

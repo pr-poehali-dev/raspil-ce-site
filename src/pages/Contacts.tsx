@@ -44,7 +44,7 @@ export default function Contacts() {
                     { icon: "Phone", label: "Телефон", val: "+7 (927) 501-52-97", href: "tel:+79275015297" },
                     { icon: "Mail", label: "Email", val: "r-raduga030@yandex.ru", href: "mailto:r-raduga030@yandex.ru" },
                     { icon: "MapPin", label: "Адрес", val: "г. Волгоград, ул. Студёная, 9", href: null },
-                    { icon: "Clock", label: "Режим работы", val: "Пн–Пт: 9:00–18:00 / Сб: 10:00–15:00", href: null },
+                    { icon: "Clock", label: "Режим работы", val: "Пн–Пт: 9:00–18:00 / Сб: 9:00–14:00", href: null },
                   ].map((c) => (
                     <div key={c.label} className="flex items-start gap-4">
                       <div className="w-10 h-10 rounded-lg gold-gradient flex items-center justify-center shrink-0">
@@ -73,7 +73,7 @@ export default function Contacts() {
                 <p className="text-stone-500 text-sm mb-4">Удобно написать в WhatsApp или Telegram</p>
                 <div className="flex gap-3">
                   <a
-                    href="https://wa.me/79000000000"
+                    href="https://wa.me/79275015297"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg bg-green-500 text-white text-sm font-semibold hover:bg-green-600 transition-colors"
@@ -82,7 +82,7 @@ export default function Contacts() {
                     WhatsApp
                   </a>
                   <a
-                    href="https://t.me/raspilse"
+                    href="https://t.me/+79275015297"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg bg-sky-500 text-white text-sm font-semibold hover:bg-sky-600 transition-colors"
