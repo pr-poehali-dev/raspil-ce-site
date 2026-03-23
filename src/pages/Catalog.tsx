@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Icon from "@/components/ui/icon";
 
-const categories = ["Все", "ЛДСП", "ДСП", "МДФ", "Фанера"];
+const categories = ["Все", "ЛДСП", "ДСП", "МДФ"];
 
 const products = [
   {
@@ -14,7 +14,6 @@ const products = [
     desc: "Высококачественная ламинированная ДСП от немецкого производителя Egger. Устойчива к влаге и царапинам. Идеальна для корпусной мебели.",
     thickness: "16 мм",
     size: "2750 × 1830 мм",
-    price: "от 850 ₽/лист",
     colors: "180 декоров",
     tag: "Популярное",
   },
@@ -25,7 +24,6 @@ const products = [
     desc: "Усиленная плита для изготовления стенок шкафов, полок и фасадов. Повышенная жёсткость конструкции.",
     thickness: "18 мм",
     size: "2750 × 1830 мм",
-    price: "от 950 ₽/лист",
     colors: "180 декоров",
     tag: null,
   },
@@ -36,7 +34,6 @@ const products = [
     desc: "Надёжная ЛДСП австрийского производства. Соответствует европейским стандартам по формальдегиду E1.",
     thickness: "16 мм",
     size: "2800 × 2070 мм",
-    price: "от 780 ₽/лист",
     colors: "200+ декоров",
     tag: "Выгодно",
   },
@@ -47,7 +44,6 @@ const products = [
     desc: "Отечественная ЛДСП с хорошим соотношением цены и качества. Подходит для бюджетных мебельных проектов.",
     thickness: "16 мм",
     size: "2750 × 1830 мм",
-    price: "от 620 ₽/лист",
     colors: "120 декоров",
     tag: null,
   },
@@ -58,21 +54,10 @@ const products = [
     desc: "Нешлифованная ДСП для скрытых элементов конструкции. Оптимальна для задних стенок и внутренних перегородок.",
     thickness: "16 мм",
     size: "2440 × 1220 мм",
-    price: "от 450 ₽/лист",
     colors: "Нейтральный",
     tag: null,
   },
-  {
-    id: 6,
-    category: "ДСП",
-    name: "ДСП влагостойкая 22 мм",
-    desc: "Специальная влагостойкая ДСП для кухонных и ванных проектов. Зелёная пропитка по всей толщине.",
-    thickness: "22 мм",
-    size: "2440 × 1220 мм",
-    price: "от 680 ₽/лист",
-    colors: "Зелёная / Нейтральная",
-    tag: "Хит",
-  },
+
   {
     id: 7,
     category: "МДФ",
@@ -80,7 +65,6 @@ const products = [
     desc: "Плита средней плотности с гладкой поверхностью. Отлично подходит для фрезеровки фасадов и декоративных элементов.",
     thickness: "10 мм",
     size: "2800 × 2070 мм",
-    price: "от 720 ₽/лист",
     colors: "Под покраску",
     tag: null,
   },
@@ -91,32 +75,10 @@ const products = [
     desc: "МДФ с ламинированным покрытием. Превосходная поверхность для изготовления фасадов премиального класса.",
     thickness: "16 мм",
     size: "2800 × 2070 мм",
-    price: "от 1100 ₽/лист",
     colors: "60+ цветов",
     tag: "Премиум",
   },
-  {
-    id: 9,
-    category: "Фанера",
-    name: "Фанера берёзовая 9 мм",
-    desc: "Берёзовая фанера сорта ФК. Прочная, гибкая. Применяется для изготовления ящиков, ниш и фигурных деталей.",
-    thickness: "9 мм",
-    size: "1525 × 1525 мм",
-    price: "от 580 ₽/лист",
-    colors: "Натуральная",
-    tag: null,
-  },
-  {
-    id: 10,
-    category: "Фанера",
-    name: "Фанера берёзовая 18 мм",
-    desc: "Толстая берёзовая фанера для несущих конструкций и столешниц. Высокая жёсткость и прочность.",
-    thickness: "18 мм",
-    size: "1525 × 1525 мм",
-    price: "от 1050 ₽/лист",
-    colors: "Натуральная",
-    tag: null,
-  },
+
 ];
 
 export default function Catalog() {
@@ -223,8 +185,7 @@ export default function Catalog() {
                         <span className="font-medium text-stone-700">{product.colors}</span>
                       </div>
                     </div>
-                    <div className="pt-4 border-t border-stone-100 flex items-center justify-between">
-                      <span className="font-serif text-lg font-bold text-amber-700">{product.price}</span>
+                    <div className="pt-4 border-t border-stone-100 flex items-center justify-end">
                       <Link
                         to="/contacts"
                         className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg gold-gradient text-white text-sm font-medium hover:shadow-md transition-all"
