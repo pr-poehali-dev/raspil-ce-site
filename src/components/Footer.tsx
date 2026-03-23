@@ -45,19 +45,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-amber-100/60">
                 <Icon name="Phone" size={14} className="text-amber-400 shrink-0" />
-                <a href="tel:+79000000000" className="hover:text-amber-200 transition-colors">
-                  +7 (900) 000-00-00
+                <a href="tel:+79275015297" className="hover:text-amber-200 transition-colors">
+                  +7 (927) 501-52-97
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-amber-100/60">
                 <Icon name="Mail" size={14} className="text-amber-400 shrink-0" />
-                <a href="mailto:info@raspilse.ru" className="hover:text-amber-200 transition-colors">
-                  info@raspilse.ru
+                <a href="mailto:r-raduga030@yandex.ru" className="hover:text-amber-200 transition-colors">
+                  r-raduga030@yandex.ru
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-amber-100/60">
                 <Icon name="MapPin" size={14} className="text-amber-400 shrink-0 mt-0.5" />
-                <span>г. Москва, ул. Производственная, 12</span>
+                <span>г. Волгоград, ул. Студёная, 9</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-amber-100/60">
                 <Icon name="Clock" size={14} className="text-amber-400 shrink-0" />

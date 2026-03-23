@@ -80,7 +80,7 @@ export default function About() {
                     <Icon name="MapPin" size={18} className="text-amber-400 mt-0.5 shrink-0" />
                     <div>
                       <div className="text-amber-200 font-medium text-sm">Адрес производства</div>
-                      <div className="text-amber-100/60 text-sm mt-0.5">г. Москва, ул. Производственная, 12</div>
+                      <div className="text-amber-100/60 text-sm mt-0.5">г. Волгоград, ул. Студёная, 9</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -94,7 +94,7 @@ export default function About() {
                     <Icon name="Phone" size={18} className="text-amber-400 mt-0.5 shrink-0" />
                     <div>
                       <div className="text-amber-200 font-medium text-sm">Телефон</div>
-                      <div className="text-amber-100/60 text-sm mt-0.5">+7 (900) 000-00-00</div>
+                      <div className="text-amber-100/60 text-sm mt-0.5">+7 (927) 501-52-97</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

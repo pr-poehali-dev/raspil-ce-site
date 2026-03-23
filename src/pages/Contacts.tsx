@@ -41,9 +41,9 @@ export default function Contacts() {
                 <h2 className="font-serif text-xl font-bold text-stone-800 mb-5">Контактная информация</h2>
                 <div className="space-y-4">
                   {[
-                    { icon: "Phone", label: "Телефон", val: "+7 (900) 000-00-00", href: "tel:+79000000000" },
-                    { icon: "Mail", label: "Email", val: "info@raspilse.ru", href: "mailto:info@raspilse.ru" },
-                    { icon: "MapPin", label: "Адрес", val: "г. Москва, ул. Производственная, 12", href: null },
+                    { icon: "Phone", label: "Телефон", val: "+7 (927) 501-52-97", href: "tel:+79275015297" },
+                    { icon: "Mail", label: "Email", val: "r-raduga030@yandex.ru", href: "mailto:r-raduga030@yandex.ru" },
+                    { icon: "MapPin", label: "Адрес", val: "г. Волгоград, ул. Студёная, 9", href: null },
                     { icon: "Clock", label: "Режим работы", val: "Пн–Пт: 9:00–18:00 / Сб: 10:00–15:00", href: null },
                   ].map((c) => (
                     <div key={c.label} className="flex items-start gap-4">

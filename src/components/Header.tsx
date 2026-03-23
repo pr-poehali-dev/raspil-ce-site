@@ -50,7 +50,7 @@ export default function Header() {
           </nav>
 
           <a
-            href="tel:+79000000000"
+            href="tel:+79275015297"
             className="hidden md:flex items-center gap-2 px-4 py-2 rounded gold-gradient text-white text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105"
           >
             <Icon name="Phone" size={16} />
@@ -84,7 +84,7 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="tel:+79000000000"
+              href="tel:+79275015297"
               className="mt-2 flex items-center justify-center gap-2 px-4 py-3 rounded gold-gradient text-white text-sm font-semibold"
             >
               <Icon name="Phone" size={16} />
